@@ -28,7 +28,7 @@
     "mocha": "*"
   },
 	"peerDependencies": {
-		"generator-cmmon": "*",
-		"generator-bootstrap": ">=1.0.0"
+		"generator-common": "*",
+		"generator-bootstrap": ">=0.2.0"
 	 }
 }
