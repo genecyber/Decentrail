@@ -1,0 +1,34 @@
+{
+  "name": "generator-decentrail",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "genecyber/generator-decentrail",
+  "author": {
+    "name": "Shannon Code",
+    "email": "genecyber@gmail.com",
+    "url": "https://github.com/genecyber"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "^0.19.2",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+	"peerDependencies": {
+		"generator-cmmon": "*",
+		"generator-bootstrap": ">=1.0.0"
+	 }
+}
